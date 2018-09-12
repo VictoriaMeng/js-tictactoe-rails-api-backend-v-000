@@ -3,5 +3,5 @@ class GamesController < ApplicationController
     @game = Game.create(state: params[:state])
     render json: @game, status: 201
   end
-  
+
 end
